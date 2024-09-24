@@ -1,4 +1,3 @@
-/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
@@ -60,18 +59,16 @@
   
   .content a {
     font-size: 30px;
-    margin-top: 25px; /* Add some space between photo and link */
+    margin-top: 25px; 
   }
   
-  /* Style for the slideshow container */
 .slideshow-container {
   position: relative;
-  max-width: 500px; /* Adjust as needed */
+  max-width: 500px; 
   margin: auto;
   overflow: hidden;
 }
 
-/* Style for each slide (images) */
 .slide {
   display: none;
 }
@@ -81,7 +78,6 @@
   display: block;
 }
 
-/* Arrows (Previous/Next) */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -106,7 +102,6 @@
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Optional: Add a glow effect to arrows on hover */
 .prev:hover, .next:hover {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
 }

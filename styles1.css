@@ -1,27 +1,23 @@
-/* Full page settings */
 body, html {
     height: 100%;
     margin: 0;
-    background-color: black; /* Set background to black */
+    background-color: black; 
   }
   
-  /* Center the page content (slideshow) */
   .page-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     position: relative;
   }
   
-  /* Style for the slideshow container */
   .slideshow-container {
     max-width: 1300px;
     position: relative;
     overflow: hidden;
   }
   
-  /* Hide all slides by default */
   .slide {
     display: none;
   }
@@ -31,25 +27,23 @@ body, html {
     display: block;
   }
   
-  /* Custom arrow (wing) images */
   .wing {
     position: absolute;
     top: 40%;
-    width: 300px; /* Adjust width as necessary */
+    width: 300px; 
     cursor: pointer;
     transition: transform 0.2s;
   }
   
-  /* Wing positions */
   .prev {
-    left: calc(50% - 900px); /* Move left adjacent to slideshow */
+    left: calc(50% - 900px); 
   }
   
   .next {
-    right: calc(50% - 900px); /* Move right adjacent to slideshow */
+    right: calc(50% - 900px); 
   }
   
   .wing:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    transform: scale(1.1);
   }
   
